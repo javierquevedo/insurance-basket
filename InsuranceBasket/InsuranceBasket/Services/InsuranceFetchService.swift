@@ -5,10 +5,8 @@
 //  Created by Javier Quevedo on 10.12.17.
 //  Copyright © 2017 Javier Quevedo. All rights reserved.
 //
-
 import Foundation
 import Alamofire
-
 
 class InsuranceFetchService {
     enum InsuranceServiceStatus: Int {
@@ -23,11 +21,11 @@ class InsuranceFetchService {
             switch response.result {
             case .success:
                 let jsonDict = response.result.value as! Dictionary<String, Any>
-                self.parse(jsonDict)
-                //let jsonData = response.data(encoding: .utf8)!
-                print("Validation Successful")
+                let insurances = self.parse(jsonDict)
+                completed(insurances, .success, nil)
             case .failure(let error):
-                print(error)
+                print(error)  // log error
+                completed(Array(), .failed, error)
             }
         }
     }
@@ -40,7 +38,6 @@ class InsuranceFetchService {
             insurances.append(insurance)
             print(category)
         }
-        print("")
         return insurances
     }
 }

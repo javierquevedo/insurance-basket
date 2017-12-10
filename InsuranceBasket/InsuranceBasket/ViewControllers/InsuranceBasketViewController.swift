@@ -6,12 +6,17 @@
 //  Copyright © 2017 Javier Quevedo. All rights reserved.
 //
 
+import Alamofire
 import UIKit
 
-class ViewController: UIViewController {
+class InsuranceBasketViewController: UIViewController {
 
+    
+    @IBOutlet weak var addInsuranceButton: UIBarButtonItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let fetchService:InsuranceFetchService = InsuranceFetchService()
         fetchService.getInsurances { (insurances, status, error) in
             print("Javi")
@@ -23,7 +28,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == C.InsuranceSegueIdentifier {
+            print("asdsa")
+        }
+    }
 }
 
