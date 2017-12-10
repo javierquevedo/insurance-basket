@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6223C461CB057AE37B762023 /* Pods_InsuranceBasketUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D51C3FE2CBEE798FC5F410C /* Pods_InsuranceBasketUITests.framework */; };
+		8F9C9C3A365D07A832943CB9 /* Pods_InsuranceBasketTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87CEEB035E3F9E839DEB295 /* Pods_InsuranceBasketTests.framework */; };
+		A712D2D91FDD434A002E3861 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712D2D81FDD434A002E3861 /* AppDelegate.swift */; };
+		A712D2DB1FDD434A002E3861 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712D2DA1FDD434A002E3861 /* ViewController.swift */; };
+		A712D2DE1FDD434A002E3861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A712D2DC1FDD434A002E3861 /* Main.storyboard */; };
+		A712D2E01FDD434A002E3861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A712D2DF1FDD434A002E3861 /* Assets.xcassets */; };
+		A712D2E31FDD434A002E3861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A712D2E11FDD434A002E3861 /* LaunchScreen.storyboard */; };
+		A712D2EE1FDD434A002E3861 /* InsuranceBasketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712D2ED1FDD434A002E3861 /* InsuranceBasketTests.swift */; };
+		A712D2F91FDD434A002E3861 /* InsuranceBasketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A712D2F81FDD434A002E3861 /* InsuranceBasketUITests.swift */; };
+		A71E97561FDD50E600D72259 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71E97551FDD50E600D72259 /* Constants.swift */; };
+		A71E97581FDD51D500D72259 /* InsurancePremium.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71E97571FDD51D500D72259 /* InsurancePremium.swift */; };
+		A71E97591FDD51D500D72259 /* InsurancePremium.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71E97571FDD51D500D72259 /* InsurancePremium.swift */; };
+		A745BA331FDD4D0A00A30D98 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A745BA321FDD4D0A00A30D98 /* Insurance.swift */; };
+		A745BA341FDD4D0A00A30D98 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A745BA321FDD4D0A00A30D98 /* Insurance.swift */; };
+		A745BA361FDD4F7200A30D98 /* InsuranceFetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A745BA351FDD4F7200A30D98 /* InsuranceFetchService.swift */; };
+		B1879F3EF4022FE3B700B494 /* Pods_InsuranceBasket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7B2A707F68813E1165D0310 /* Pods_InsuranceBasket.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A712D2EA1FDD434A002E3861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A712D2CD1FDD4349002E3861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A712D2D41FDD434A002E3861;
+			remoteInfo = InsuranceBasket;
+		};
+		A712D2F51FDD434A002E3861 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A712D2CD1FDD4349002E3861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A712D2D41FDD434A002E3861;
+			remoteInfo = InsuranceBasket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D51C3FE2CBEE798FC5F410C /* Pods_InsuranceBasketUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InsuranceBasketUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		929B1D1CCF53CC1072F422A2 /* Pods-InsuranceBasketUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuranceBasketUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InsuranceBasketUITests/Pods-InsuranceBasketUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		98FF66C068812F18EE7C9E8D /* Pods-InsuranceBasketTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuranceBasketTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InsuranceBasketTests/Pods-InsuranceBasketTests.release.xcconfig"; sourceTree = "<group>"; };
+		A712D2D51FDD434A002E3861 /* InsuranceBasket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsuranceBasket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A712D2D81FDD434A002E3861 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A712D2DA1FDD434A002E3861 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A712D2DD1FDD434A002E3861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A712D2DF1FDD434A002E3861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A712D2E21FDD434A002E3861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A712D2E41FDD434A002E3861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A712D2E91FDD434A002E3861 /* InsuranceBasketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsuranceBasketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A712D2ED1FDD434A002E3861 /* InsuranceBasketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceBasketTests.swift; sourceTree = "<group>"; };
+		A712D2EF1FDD434A002E3861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A712D2F41FDD434A002E3861 /* InsuranceBasketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsuranceBasketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A712D2F81FDD434A002E3861 /* InsuranceBasketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceBasketUITests.swift; sourceTree = "<group>"; };
+		A712D2FA1FDD434A002E3861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71E97551FDD50E600D72259 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A71E97571FDD51D500D72259 /* InsurancePremium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsurancePremium.swift; sourceTree = "<group>"; };
+		A745BA321FDD4D0A00A30D98 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
+		A745BA351FDD4F7200A30D98 /* InsuranceFetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceFetchService.swift; sourceTree = "<group>"; };
+		A87CEEB035E3F9E839DEB295 /* Pods_InsuranceBasketTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InsuranceBasketTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D708188652608B39C7C6D557 /* Pods-InsuranceBasket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuranceBasket.release.xcconfig"; path = "Pods/Target Support Files/Pods-InsuranceBasket/Pods-InsuranceBasket.release.xcconfig"; sourceTree = "<group>"; };
+		F0B3FC51038748B2340F8EEC /* Pods-InsuranceBasket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuranceBasket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InsuranceBasket/Pods-InsuranceBasket.debug.xcconfig"; sourceTree = "<group>"; };
+		F2B38314C1D77EF14A17A6D6 /* Pods-InsuranceBasketTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuranceBasketTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InsuranceBasketTests/Pods-InsuranceBasketTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7B2A707F68813E1165D0310 /* Pods_InsuranceBasket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InsuranceBasket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D718A2D4A6B16ADDFE25C3 /* Pods-InsuranceBasketUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InsuranceBasketUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InsuranceBasketUITests/Pods-InsuranceBasketUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A712D2D21FDD434A002E3861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1879F3EF4022FE3B700B494 /* Pods_InsuranceBasket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A712D2E61FDD434A002E3861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9C9C3A365D07A832943CB9 /* Pods_InsuranceBasketTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A712D2F11FDD434A002E3861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6223C461CB057AE37B762023 /* Pods_InsuranceBasketUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A712D2CC1FDD4349002E3861 = {
+			isa = PBXGroup;
+			children = (
+				A712D2D71FDD434A002E3861 /* InsuranceBasket */,
+				A712D2EC1FDD434A002E3861 /* InsuranceBasketTests */,
+				A712D2F71FDD434A002E3861 /* InsuranceBasketUITests */,
+				A712D2D61FDD434A002E3861 /* Products */,
+				BD8493F502554A853F242B1E /* Pods */,
+				C2FBC33F651261752B363691 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A712D2D61FDD434A002E3861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A712D2D51FDD434A002E3861 /* InsuranceBasket.app */,
+				A712D2E91FDD434A002E3861 /* InsuranceBasketTests.xctest */,
+				A712D2F41FDD434A002E3861 /* InsuranceBasketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A712D2D71FDD434A002E3861 /* InsuranceBasket */ = {
+			isa = PBXGroup;
+			children = (
+				A71E97541FDD50BC00D72259 /* Resources */,
+				A745BA301FDD4CC200A30D98 /* Models */,
+				A745BA2F1FDD4CBD00A30D98 /* ViewModels */,
+				A745BA2E1FDD4CB500A30D98 /* ViewControllers */,
+				A745BA2D1FDD4CAF00A30D98 /* View */,
+				A745BA2C1FDD4CA700A30D98 /* Services */,
+				A745BA2B1FDD4C9F00A30D98 /* Potocols */,
+				A712D2D81FDD434A002E3861 /* AppDelegate.swift */,
+				A712D2DA1FDD434A002E3861 /* ViewController.swift */,
+				A712D2DC1FDD434A002E3861 /* Main.storyboard */,
+				A712D2DF1FDD434A002E3861 /* Assets.xcassets */,
+				A712D2E11FDD434A002E3861 /* LaunchScreen.storyboard */,
+				A712D2E41FDD434A002E3861 /* Info.plist */,
+			);
+			path = InsuranceBasket;
+			sourceTree = "<group>";
+		};
+		A712D2EC1FDD434A002E3861 /* InsuranceBasketTests */ = {
+			isa = PBXGroup;
+			children = (
+				A712D2ED1FDD434A002E3861 /* InsuranceBasketTests.swift */,
+				A712D2EF1FDD434A002E3861 /* Info.plist */,
+			);
+			path = InsuranceBasketTests;
+			sourceTree = "<group>";
+		};
+		A712D2F71FDD434A002E3861 /* InsuranceBasketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A712D2F81FDD434A002E3861 /* InsuranceBasketUITests.swift */,
+				A712D2FA1FDD434A002E3861 /* Info.plist */,
+			);
+			path = InsuranceBasketUITests;
+			sourceTree = "<group>";
+		};
+		A71E97541FDD50BC00D72259 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A71E97551FDD50E600D72259 /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A745BA2B1FDD4C9F00A30D98 /* Potocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Potocols;
+			sourceTree = "<group>";
+		};
+		A745BA2C1FDD4CA700A30D98 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A745BA351FDD4F7200A30D98 /* InsuranceFetchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A745BA2D1FDD4CAF00A30D98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A745BA2E1FDD4CB500A30D98 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A745BA2F1FDD4CBD00A30D98 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A745BA301FDD4CC200A30D98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A745BA321FDD4D0A00A30D98 /* Insurance.swift */,
+				A71E97571FDD51D500D72259 /* InsurancePremium.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD8493F502554A853F242B1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0B3FC51038748B2340F8EEC /* Pods-InsuranceBasket.debug.xcconfig */,
+				D708188652608B39C7C6D557 /* Pods-InsuranceBasket.release.xcconfig */,
+				F2B38314C1D77EF14A17A6D6 /* Pods-InsuranceBasketTests.debug.xcconfig */,
+				98FF66C068812F18EE7C9E8D /* Pods-InsuranceBasketTests.release.xcconfig */,
+				929B1D1CCF53CC1072F422A2 /* Pods-InsuranceBasketUITests.debug.xcconfig */,
+				F7D718A2D4A6B16ADDFE25C3 /* Pods-InsuranceBasketUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2FBC33F651261752B363691 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7B2A707F68813E1165D0310 /* Pods_InsuranceBasket.framework */,
+				A87CEEB035E3F9E839DEB295 /* Pods_InsuranceBasketTests.framework */,
+				1D51C3FE2CBEE798FC5F410C /* Pods_InsuranceBasketUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A712D2D41FDD434A002E3861 /* InsuranceBasket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A712D2FD1FDD434A002E3861 /* Build configuration list for PBXNativeTarget "InsuranceBasket" */;
+			buildPhases = (
+				2F5CC840044C6E1989C43B8E /* [CP] Check Pods Manifest.lock */,
+				A712D2D11FDD434A002E3861 /* Sources */,
+				A712D2D21FDD434A002E3861 /* Frameworks */,
+				A712D2D31FDD434A002E3861 /* Resources */,
+				201DC742EEB0ED6CF448A220 /* [CP] Embed Pods Frameworks */,
+				4ED32DB32717D3124712CFB0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsuranceBasket;
+			productName = InsuranceBasket;
+			productReference = A712D2D51FDD434A002E3861 /* InsuranceBasket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A712D2E81FDD434A002E3861 /* InsuranceBasketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A712D3001FDD434A002E3861 /* Build configuration list for PBXNativeTarget "InsuranceBasketTests" */;
+			buildPhases = (
+				2EFB49858CF1A0E247C448C7 /* [CP] Check Pods Manifest.lock */,
+				A712D2E51FDD434A002E3861 /* Sources */,
+				A712D2E61FDD434A002E3861 /* Frameworks */,
+				A712D2E71FDD434A002E3861 /* Resources */,
+				F766A9C1CD38F5B905BDC044 /* [CP] Embed Pods Frameworks */,
+				5EF97588F485AA62BFD641A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A712D2EB1FDD434A002E3861 /* PBXTargetDependency */,
+			);
+			name = InsuranceBasketTests;
+			productName = InsuranceBasketTests;
+			productReference = A712D2E91FDD434A002E3861 /* InsuranceBasketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A712D2F31FDD434A002E3861 /* InsuranceBasketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A712D3031FDD434A002E3861 /* Build configuration list for PBXNativeTarget "InsuranceBasketUITests" */;
+			buildPhases = (
+				545D595BD8DA667D0083327E /* [CP] Check Pods Manifest.lock */,
+				A712D2F01FDD434A002E3861 /* Sources */,
+				A712D2F11FDD434A002E3861 /* Frameworks */,
+				A712D2F21FDD434A002E3861 /* Resources */,
+				9A1AA1900F1C71B462DA3A10 /* [CP] Embed Pods Frameworks */,
+				2067A7399AAFFC0EB8431E15 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A712D2F61FDD434A002E3861 /* PBXTargetDependency */,
+			);
+			name = InsuranceBasketUITests;
+			productName = InsuranceBasketUITests;
+			productReference = A712D2F41FDD434A002E3861 /* InsuranceBasketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A712D2CD1FDD4349002E3861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Javier Quevedo";
+				TargetAttributes = {
+					A712D2D41FDD434A002E3861 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A712D2E81FDD434A002E3861 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A712D2D41FDD434A002E3861;
+					};
+					A712D2F31FDD434A002E3861 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A712D2D41FDD434A002E3861;
+					};
+				};
+			};
+			buildConfigurationList = A712D2D01FDD4349002E3861 /* Build configuration list for PBXProject "InsuranceBasket" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A712D2CC1FDD4349002E3861;
+			productRefGroup = A712D2D61FDD434A002E3861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A712D2D41FDD434A002E3861 /* InsuranceBasket */,
+				A712D2E81FDD434A002E3861 /* InsuranceBasketTests */,
+				A712D2F31FDD434A002E3861 /* InsuranceBasketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A712D2D31FDD434A002E3861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A712D2E31FDD434A002E3861 /* LaunchScreen.storyboard in Resources */,
+				A712D2E01FDD434A002E3861 /* Assets.xcassets in Resources */,
+				A712D2DE1FDD434A002E3861 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A712D2E71FDD434A002E3861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A712D2F21FDD434A002E3861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		201DC742EEB0ED6CF448A220 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-InsuranceBasket/Pods-InsuranceBasket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsuranceBasket/Pods-InsuranceBasket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2067A7399AAFFC0EB8431E15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsuranceBasketUITests/Pods-InsuranceBasketUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EFB49858CF1A0E247C448C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InsuranceBasketTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F5CC840044C6E1989C43B8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InsuranceBasket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED32DB32717D3124712CFB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsuranceBasket/Pods-InsuranceBasket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		545D595BD8DA667D0083327E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InsuranceBasketUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EF97588F485AA62BFD641A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsuranceBasketTests/Pods-InsuranceBasketTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A1AA1900F1C71B462DA3A10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsuranceBasketUITests/Pods-InsuranceBasketUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F766A9C1CD38F5B905BDC044 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InsuranceBasketTests/Pods-InsuranceBasketTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A712D2D11FDD434A002E3861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71E97561FDD50E600D72259 /* Constants.swift in Sources */,
+				A712D2DB1FDD434A002E3861 /* ViewController.swift in Sources */,
+				A71E97581FDD51D500D72259 /* InsurancePremium.swift in Sources */,
+				A745BA361FDD4F7200A30D98 /* InsuranceFetchService.swift in Sources */,
+				A712D2D91FDD434A002E3861 /* AppDelegate.swift in Sources */,
+				A745BA331FDD4D0A00A30D98 /* Insurance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A712D2E51FDD434A002E3861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A745BA341FDD4D0A00A30D98 /* Insurance.swift in Sources */,
+				A712D2EE1FDD434A002E3861 /* InsuranceBasketTests.swift in Sources */,
+				A71E97591FDD51D500D72259 /* InsurancePremium.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A712D2F01FDD434A002E3861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A712D2F91FDD434A002E3861 /* InsuranceBasketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A712D2EB1FDD434A002E3861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A712D2D41FDD434A002E3861 /* InsuranceBasket */;
+			targetProxy = A712D2EA1FDD434A002E3861 /* PBXContainerItemProxy */;
+		};
+		A712D2F61FDD434A002E3861 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A712D2D41FDD434A002E3861 /* InsuranceBasket */;
+			targetProxy = A712D2F51FDD434A002E3861 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A712D2DC1FDD434A002E3861 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A712D2DD1FDD434A002E3861 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A712D2E11FDD434A002E3861 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A712D2E21FDD434A002E3861 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A712D2FB1FDD434A002E3861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A712D2FC1FDD434A002E3861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A712D2FE1FDD434A002E3861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B3FC51038748B2340F8EEC /* Pods-InsuranceBasket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EE525DQZ4;
+				INFOPLIST_FILE = InsuranceBasket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jqf.InsuranceBasket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A712D2FF1FDD434A002E3861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D708188652608B39C7C6D557 /* Pods-InsuranceBasket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EE525DQZ4;
+				INFOPLIST_FILE = InsuranceBasket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jqf.InsuranceBasket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A712D3011FDD434A002E3861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2B38314C1D77EF14A17A6D6 /* Pods-InsuranceBasketTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EE525DQZ4;
+				INFOPLIST_FILE = InsuranceBasketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jqf.InsuranceBasketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsuranceBasket.app/InsuranceBasket";
+			};
+			name = Debug;
+		};
+		A712D3021FDD434A002E3861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98FF66C068812F18EE7C9E8D /* Pods-InsuranceBasketTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EE525DQZ4;
+				INFOPLIST_FILE = InsuranceBasketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jqf.InsuranceBasketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsuranceBasket.app/InsuranceBasket";
+			};
+			name = Release;
+		};
+		A712D3041FDD434A002E3861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 929B1D1CCF53CC1072F422A2 /* Pods-InsuranceBasketUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EE525DQZ4;
+				INFOPLIST_FILE = InsuranceBasketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jqf.InsuranceBasketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InsuranceBasket;
+			};
+			name = Debug;
+		};
+		A712D3051FDD434A002E3861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D718A2D4A6B16ADDFE25C3 /* Pods-InsuranceBasketUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EE525DQZ4;
+				INFOPLIST_FILE = InsuranceBasketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jqf.InsuranceBasketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InsuranceBasket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A712D2D01FDD4349002E3861 /* Build configuration list for PBXProject "InsuranceBasket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A712D2FB1FDD434A002E3861 /* Debug */,
+				A712D2FC1FDD434A002E3861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A712D2FD1FDD434A002E3861 /* Build configuration list for PBXNativeTarget "InsuranceBasket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A712D2FE1FDD434A002E3861 /* Debug */,
+				A712D2FF1FDD434A002E3861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A712D3001FDD434A002E3861 /* Build configuration list for PBXNativeTarget "InsuranceBasketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A712D3011FDD434A002E3861 /* Debug */,
+				A712D3021FDD434A002E3861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A712D3031FDD434A002E3861 /* Build configuration list for PBXNativeTarget "InsuranceBasketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A712D3041FDD434A002E3861 /* Debug */,
+				A712D3051FDD434A002E3861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A712D2CD1FDD4349002E3861 /* Project object */;
+}
